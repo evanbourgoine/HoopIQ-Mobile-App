@@ -1,0 +1,200 @@
+[
+    {
+        "name": "LeBron James",
+        "team": "Los Angeles Lakers",
+        "photoFilename": "lebronjames",
+        "position": "Forward",
+        "birthDate": "1984-12-30",
+        "height": "6'9\"",
+        "college": "None",
+        "number": 6,
+        "nationality": "USA"
+    },
+    {
+        "name": "Stephen Curry",
+        "team": "Golden State Warriors",
+        "photoFilename": "stephcurry",
+        "position": "Guard",
+        "birthDate": "1988-03-14",
+        "height": "6'3\"",
+        "college": "Davidson",
+        "number": 30,
+        "nationality": "USA"
+    },
+    {
+        "name": "Giannis Antetokounmpo",
+        "team": "Milwaukee Bucks",
+        "photoFilename": "giannis",
+        "position": "Forward",
+        "birthDate": "1994-12-06",
+        "height": "6'11\"",
+        "college": "None",
+        "number": 34,
+        "nationality": "Greece"
+    },
+    {
+        "name": "Kevin Durant",
+        "team": "Phoenix Suns",
+        "photoFilename": "kevindurant",
+        "position": "Forward",
+        "birthDate": "1988-09-29",
+        "height": "6'10\"",
+        "college": "Texas",
+        "number": 35,
+        "nationality": "USA"
+    },
+    {
+        "name": "Luka Dončić",
+        "team": "Dallas Mavericks",
+        "photoFilename": "lukadoncic",
+        "position": "Guard",
+        "birthDate": "1999-02-28",
+        "height": "6'7\"",
+        "college": "None",
+        "number": 77,
+        "nationality": "Slovenia"
+    },
+    {
+        "name": "Joel Embiid",
+        "team": "Philadelphia 76ers",
+        "photoFilename": "joelembiid",
+        "position": "Center",
+        "birthDate": "1994-03-16",
+        "height": "7'0\"",
+        "college": "Kansas",
+        "number": 21,
+        "nationality": "Cameroon"
+    },
+    {
+        "name": "Jayson Tatum",
+        "team": "Boston Celtics",
+        "photoFilename": "jaysontatum",
+        "position": "Forward",
+        "birthDate": "1998-03-03",
+        "height": "6'8\"",
+        "college": "Duke",
+        "number": 0,
+        "nationality": "USA"
+    },
+    {
+        "name": "Nikola Jokić",
+        "team": "Denver Nuggets",
+        "photoFilename": "nikolajokic",
+        "position": "Center",
+        "birthDate": "1995-02-19",
+        "height": "7'0\"",
+        "college": "None",
+        "number": 15,
+        "nationality": "Serbia"
+    },
+    {
+        "name": "Kawhi Leonard",
+        "team": "Los Angeles Clippers",
+        "photoFilename": "kawhi",
+        "position": "Forward",
+        "birthDate": "1991-06-29",
+        "height": "6'7\"",
+        "college": "San Diego State",
+        "number": 2,
+        "nationality": "USA"
+    },
+    {
+        "name": "Ja Morant",
+        "team": "Memphis Grizzlies",
+        "photoFilename": "jamorant",
+        "position": "Guard",
+        "birthDate": "1999-08-10",
+        "height": "6'3\"",
+        "college": "Murray State",
+        "number": 12,
+        "nationality": "USA"
+    },
+    {
+        "name": "Jimmy Butler",
+        "team": "Miami Heat",
+        "photoFilename": "jimmybutler",
+        "position": "Forward",
+        "birthDate": "1989-09-14",
+        "height": "6'7\"",
+        "college": "Marquette",
+        "number": 22,
+        "nationality": "USA"
+    },
+    {
+        "name": "Damian Lillard",
+        "team": "Milwaukee Bucks",
+        "photoFilename": "damianlillard",
+        "position": "Guard",
+        "birthDate": "1990-07-15",
+        "height": "6'2\"",
+        "college": "Weber State",
+        "number": 0,
+        "nationality": "USA"
+    },
+    {
+        "name": "Zion Williamson",
+        "team": "New Orleans Pelicans",
+        "photoFilename": "zionwilliamson",
+        "position": "Forward",
+        "birthDate": "2000-07-06",
+        "height": "6'6\"",
+        "college": "Duke",
+        "number": 1,
+        "nationality": "USA"
+    },
+    {
+        "name": "Anthony Davis",
+        "team": "Los Angeles Lakers",
+        "photoFilename": "anthonydavis",
+        "position": "Center",
+        "birthDate": "1993-03-11",
+        "height": "6'10\"",
+        "college": "Kentucky",
+        "number": 3,
+        "nationality": "USA"
+    },
+    {
+        "name": "Devin Booker",
+        "team": "Phoenix Suns",
+        "photoFilename": "devinbooker",
+        "position": "Guard",
+        "birthDate": "1996-10-30",
+        "height": "6'5\"",
+        "college": "Kentucky",
+        "number": 1,
+        "nationality": "USA"
+    },
+    {
+        "name": "James Harden",
+        "team": "Los Angeles Clippers",
+        "photoFilename": "jamesharden",
+        "position": "Guard",
+        "birthDate": "1989-08-26",
+        "height": "6'5\"",
+        "college": "Arizona State",
+        "number": 13,
+        "nationality": "USA"
+    },
+    {
+        "name": "Karl-Anthony Towns",
+        "team": "Minnesota Timberwolves",
+        "photoFilename": "karlanthonytowns",
+        "position": "Center",
+        "birthDate": "1995-11-15",
+        "height": "6'11\"",
+        "college": "Kentucky",
+        "number": 32,
+        "nationality": "USA/Dominican Republic"
+    },
+    {
+        "name": "Donovan Mitchell",
+        "team": "Cleveland Cavaliers",
+        "photoFilename": "donovanmitchell",
+        "position": "Guard",
+        "birthDate": "1996-09-07",
+        "height": "6'1\"",
+        "college": "Louisville",
+        "number": 45,
+        "nationality": "USA"
+    }
+]

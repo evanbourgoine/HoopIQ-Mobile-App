@@ -1,0 +1,53 @@
+//
+//  PlayerItem.swift
+//  HoopIQ
+//
+//  Created by CS3714 Team 6 on 12/7/24.
+//  Copyright © 2024 CS3714 Project Group 6. All rights reserved.
+//  Created by Osman Balci and Jiham Park on 11/5/24.
+//  Copyright © 2024 Osman Balci. All rights reserved.
+//
+
+import SwiftUI
+
+struct PlayerItem: View {
+    
+    // Input Parameter
+    let player: Player
+    
+    var body: some View {
+        HStack {
+            if player.photoFilename.hasSuffix(".png") {
+                getImageFromUrl(url: player.photoFilename, defaultFilename: "ImageUnavailable")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 80, height: 80)
+            } else if (player.photoFilename.hasSuffix(".jpg") || player.photoFilename.hasSuffix(".jpeg")) {
+                getImageFromDocumentDirectory(filename: player.photoFilename.components(separatedBy: ".")[0], fileExtension: player.photoFilename.components(separatedBy: ".")[1], defaultFilename: "ImageUnavailable")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 80, height: 80)
+            } else {
+                Image(player.photoFilename)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 80, height: 80)
+            }
+            
+            VStack(alignment: .leading) {
+                Text(player.name)
+                HStack {
+                    Text("Team: \(player.team)")
+                        .font(.system(size: 14))
+                } //end HStack for publisher
+                HStack {
+                    Image(systemName: "map")
+                        .foregroundColor(.black) //map icon is black
+                    Text(player.nationality)
+                        .font(.system(size: 14))
+                } //end HStack for creation date
+            }
+            .font(.system(size: 14))
+        }
+    }
+}
